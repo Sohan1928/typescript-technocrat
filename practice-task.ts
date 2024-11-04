@@ -54,5 +54,35 @@
     friends: ["doe", "gates", "petty", "kite"],
   };
 
+  // task -04
+
+  interface Book {
+    title: string;
+    publisher: string;
+    year: number;
+  }
+
+  interface Magazine {
+    title: string;
+    publisher: string;
+    year: number;
+  }
+
+  const book = {
+    title: "The Book",
+    publisher: "ABC",
+    year: 2022,
+  };
+
+  const magazine = {
+    title: "The Magazine",
+    publisher: "XYZ",
+    year: 2021,
+  };
+
+  type bookOrMagazine = Book | Magazine;
+
+  type bookAndMagazine = Book & Magazine;
+
   //
 }
