@@ -84,5 +84,15 @@
 
   type bookAndMagazine = Book & Magazine;
 
+  // task -05
+
+  function reverseString(str: string): string {
+    return str.split("").reverse().join("");
+  }
+  const input: string = "hello";
+  const reversed: string = reverseString(input);
+  console.log(`Originals: ${input}`);
+  console.log(`Reversed: ${reversed}`);
+
   //
 }
