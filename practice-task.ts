@@ -24,5 +24,35 @@
     age: 26,
   };
 
+  // task-03
+
+  type Person = {
+    name: string;
+    address: string;
+    hairColor: string;
+    eyeColor: string;
+    income: number;
+    expense: number;
+    familyMember: number;
+    job: string;
+    skills: string[];
+    maritalStatus: string;
+    friends: string[];
+  };
+
+  const person: Person = {
+    name: "John",
+    address: "bangladesh",
+    hairColor: "black",
+    eyeColor: "gray",
+    income: 20000,
+    expense: 15000,
+    familyMember: 5,
+    job: "developer",
+    skills: ["HTML", "CSS", "React", "TypeScript", "MongoDB"],
+    maritalStatus: "married",
+    friends: ["doe", "gates", "petty", "kite"],
+  };
+
   //
 }
